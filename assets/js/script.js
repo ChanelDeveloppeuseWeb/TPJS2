@@ -1,10 +1,4 @@
 
- function modif()
-{
-document.bgColor="#fffggf";
-}
-
-
 function yearsOldValid(){
     let age = document.getElementById("age").value
     if (age <= 0 || age > 150){
