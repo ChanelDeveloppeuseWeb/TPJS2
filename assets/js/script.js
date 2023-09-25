@@ -1,9 +1,15 @@
+
+ function modif()
+{
+document.bgColor="#fffggf";
+}
+
+
 function yearsOldValid(){
     let age = document.getElementById("age").value
-try{
-    
-   
-}catch()
-document.querySelector("#result").innerHTML = result
-console.log(age)
+    if (age <= 0 || age > 150){
+    document.getElementById("resultat").value = "age non valide"
+    }else{
+    document.getElementById("resultat").value = `l \'age est valide`
+    }
 }
